@@ -15,6 +15,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
+        
     - name: branch name  
       run: echo running on branch ${GITHUB_REF##*/}
     - name: run ci
